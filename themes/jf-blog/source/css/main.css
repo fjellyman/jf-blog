@@ -69,3 +69,35 @@ i {
     line-height: .75em;
     vertical-align: -15%;
 }
+
+header#siteHeader {
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 15px;
+    height: 64px;
+    line-height: 20px;
+    width: 100%;
+}
+
+header#siteHeader>nav {
+    background: #222222;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    min-height: 40px;
+}
+
+header#siteHeader>nav a {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+header#siteHeader>nav .navbar-nav>li>a:hover {
+    opacity: 1.0;
+    color: #2f98bb;
+}
+
+header#siteHeader>nav .navbar-toggler-icon>i {
+    color: rgba(255, 255, 255, 0.87);
+    padding: 5px 0;
+}
+
+header#siteHeader>nav .navbar-toggler-icon>i:hover {
+    color: #2f98bb;
+}

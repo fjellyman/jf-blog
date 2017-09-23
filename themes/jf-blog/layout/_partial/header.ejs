@@ -1,3 +1,33 @@
-<header>
-    header
+<header id="siteHeader">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand d-inline-block d-md-none" href="/"><img alt="Brand" src="/images/icon.svg" height="30px" width="30px"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="si-bars"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="w-50 d-none d-md-block">
+                <a class="navbar-brand" href="/"><img src="/images/logo.svg" height="50px" /></a>
+            </div>
+            <ul class="navbar-nav mr-auto w-100 justify-content-around">
+                <li class="nav-item"><a href="//jordanfjellman.com" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="//jordanfjellman.com/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/archives" class="nav-link">Archives</a></li>
+                <li class="nav-item"><a href="//jordanfjellman.com/projects" class="nav-link">Projects</a></li>
+            </ul>
+            <div class="w-50 text-right">
+                <div class="d-none d-md-block">
+                    <form id="searchForm">
+                        <label id="searchLabel" for="searchInput"><i class="si-search"></i></label>
+                        <input id="searchInput" name="q" type="search" placeholder="<%= __('search') %>" results="0">
+                    </form>
+                    <div id="searchResults">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
 </header>
